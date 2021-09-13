@@ -19,6 +19,7 @@ html, body {
 body {
   // background-color: alpha(var(--color-primary), 1);
   background: $color-white;
+  font-size: 16px;
   font-size: rem(16px);
   font-family: $primary-font;
   color: $primary-color;
@@ -34,32 +35,39 @@ body {
   margin: 0 0 15px 0;
 }
 .h1, h1 {
+  font-size: 21px;
   font-size: rem(21px);
   line-height: 1.05;
   letter-spacing: -1px;
   margin-bottom: 25px;
 }
 .h2, h2 {
+  font-size: 18px;
   font-size: rem(18px);
   line-height: 1.14;
   margin-bottom: 20px;
 }
 .h3, h3 {
+  font-size: 16px;
   font-size: rem(16px);
   line-height: 1.38;
 }
 .h4, h4 {
+  font-size: 14px;
   font-size: rem(14px);
   line-height: 1.38;
 }
 .h5, h5 {
+  font-size: 13px;
   font-size: rem(13px);
 }
 .h6, h6 {
+  font-size: 12px;
   font-size: rem(12px);
 }
 
 small, .small {
+  font-size: 12px;
   font-size: rem(12px);
   line-height: 1.2;
 }
@@ -120,13 +128,13 @@ img, .img {
 
 /* text align */
 .text {
-  &-center, &--center {
+  &-center, &.--center {
     text-align: center !important;
   }
-  &-left, &--left {
+  &-left, &.--left {
     text-align: left !important;
   }
-  &-right, &--right {
+  &-right, &.--right {
     text-align: right !important;
   }
 }
@@ -173,7 +181,7 @@ img, .img {
 
 /* img */
 .img {
-  &-responsive, &--responsive {
+  &-responsive, &.--responsive {
     display: block;
     height: auto;
     max-width: 100%;
@@ -204,20 +212,20 @@ ol li {
 
 /* bg */
 .bg {
-  &--pink {
+  &.--pink {
     background-color: pink !important;
   }
-  &--white {
+  &.--white {
     background-color: $color-white !important;
   }
-  &--black {
+  &.--black {
     background-color: $color-black !important;
   }
 }
 
 /* no padding no margin */
 .no {
-  &--p {
+  &.--p {
     padding: 0 !important;
     &-top {
       padding-top: 0 !important;
@@ -232,7 +240,7 @@ ol li {
       padding-right: 0 !important;
     }
   }
-  &--m {
+  &.--m {
     margin: 0 !important;
     &-top {
       margin-top: 0 !important;
@@ -247,13 +255,13 @@ ol li {
       margin-right: 0 !important;
     }
   }
-  &--b {
+  &.--b {
     background: none !important;
     &-image {
       background-image: none !important;
     }
   }
-  &--border {
+  &.--border {
     border: 0 !important;
   }
 }
@@ -267,10 +275,10 @@ ol li {
 
 /* color */
 .color {
-  &--black {
+  &.--black {
     color: $color-black !important;
   }
-  &--white {
+  &.--white {
     color: $color-white !important;
   }
 }
